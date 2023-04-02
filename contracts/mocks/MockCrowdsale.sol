@@ -17,31 +17,21 @@ contract MockCrowdsale is PaymeTokenCrowdsale{
 
     constructor(
         IERC20 _BUSDT,
-        uint256 rate,    // rate in PayME
-        address payable wallet,
         IERC20 _token,
-        uint256 _cap,
-        uint256 _openingTime,
-        uint256 _closingTime,
-        uint256 _duration,
-        uint256 _min,
-        uint256 _max,
         address _vestingAddress
-
     )
-
     PaymeTokenCrowdsale(
         _BUSDT,
-        rate,    // rate in PayME
-        wallet,
-        _token,
-        _cap,
-        _openingTime,
-        _closingTime,
-        _duration,
-        _min,
-        _max,
-        _vestingAddress
+        6666666670000000000000,    // rate
+        payable(0x731421dEAF8bcD6396F573e9412F68e7A258dca8), //wallet
+        _token, //token
+        1000000000000000000000000000, // total sale cap
+        block.timestamp, //opening time
+         block.timestamp+30, //closing time
+        15778800, //duration
+        100, //min sale
+        1000, //max sale
+        _vestingAddress //vesting address
       ){
     }
 

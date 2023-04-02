@@ -1213,7 +1213,7 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
@@ -1388,19 +1388,19 @@
 			]
 		},
 		"contracts/ico/PaymeTokenCrowdsale.sol": {
-			"keccak256": "0xb29cda6149bdb9bcc49e7984894206bf8470e65361e1c043fc6aa9286d010daa",
+			"keccak256": "0x13813f2af30eec8dcd96256fc041dfd829b5a522e09ddd60fb00274ebf78987f",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://277856718675ba427547fdfbfdb88c1a858c79afadfd32fbd66416e23dc65774",
-				"dweb:/ipfs/QmbtBCQG6R2BJiFYXhj7wWCkugTQsT4tQqmK6SgA1Ce6eW"
+				"bzz-raw://870eaa81868dcd36e2916f676eb3f8fe2cf1ad1455d0c503ed69cbb314b901be",
+				"dweb:/ipfs/Qmbb2umubN2nXcKzC7UAbQ6Ymgk2ntn9AxjfrcoxLN9R3q"
 			]
 		},
 		"contracts/ico/PaymeTokenVesting.sol": {
-			"keccak256": "0x111b43b30cd45d700faa104647b909e47ccbdc275fdc68906f4aa012cee5d27f",
+			"keccak256": "0x86831922b3793211c62d87446da50a147ba88d71d0eaa1bc5864b30d28e8d562",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://b4dab02084eb507ca26688c4bd13330a201d35bcc4dd1b9cde6a996f65259da0",
-				"dweb:/ipfs/QmVnftwFjCu5EKpV87Yn4QkWCAtNqmqrjXGrg3pRUS5CsJ"
+				"bzz-raw://54421dec5b4532667a266c7bd038491b74a825ec15522a2150e40e77bd46ed0e",
+				"dweb:/ipfs/QmcY5n9VhoSZ6QL6zRUJ1eXU7w7YGRqJTpdpgEHgs7BR4q"
 			]
 		}
 	},

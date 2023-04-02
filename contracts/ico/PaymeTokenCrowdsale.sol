@@ -303,6 +303,8 @@ FinalizableCrowdsale, PausableCrowdsale  {
         //increase the builder amount
         builderTotalAmount = builderTotalAmount.add(iAmount);
 
+        emit NewBuilderCreated(iName,iBuilder,iAmount,iDuration,iCliff);
+
     }
 
     //TODO: Create Builders

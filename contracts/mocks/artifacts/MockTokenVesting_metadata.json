@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "token",
+						"type": "address"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -894,14 +900,6 @@
 		"remappings": []
 	},
 	"sources": {
-		"@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
-			"keccak256": "0x4e733d3164f73f461eaf9d8087a7ad1ea180bdc8ba0d3d61b0e1ae16d8e63dff",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://75b47c3aeca7b66ea6752f8be020ec5c1c502de6ec9065272dae23d3a52196e2",
-				"dweb:/ipfs/QmUebPMHv16tYKFh5BmBQkMfRFb5b8UZ2RgVwdjxCeufVF"
-			]
-		},
 		"@openzeppelin/contracts/access/Ownable.sol": {
 			"keccak256": "0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673",
 			"license": "MIT",
@@ -975,19 +973,19 @@
 			]
 		},
 		"contracts/ico/PaymeTokenVesting.sol": {
-			"keccak256": "0x111b43b30cd45d700faa104647b909e47ccbdc275fdc68906f4aa012cee5d27f",
+			"keccak256": "0x86831922b3793211c62d87446da50a147ba88d71d0eaa1bc5864b30d28e8d562",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://b4dab02084eb507ca26688c4bd13330a201d35bcc4dd1b9cde6a996f65259da0",
-				"dweb:/ipfs/QmVnftwFjCu5EKpV87Yn4QkWCAtNqmqrjXGrg3pRUS5CsJ"
+				"bzz-raw://54421dec5b4532667a266c7bd038491b74a825ec15522a2150e40e77bd46ed0e",
+				"dweb:/ipfs/QmcY5n9VhoSZ6QL6zRUJ1eXU7w7YGRqJTpdpgEHgs7BR4q"
 			]
 		},
 		"contracts/mocks/MockTokenVesting.sol": {
-			"keccak256": "0x9063a1c9439139cd6e7a9a86b0a69844bc810973aacd6efc7b6561316f175097",
+			"keccak256": "0x1312a0c8182019009eed07d3286bf1786186a2b18ad1a256895ce6e4e648994d",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://2057f78ee39d2a9ee9e9f63117457cd707e3135924ab714a3db61fe0cde5ef4f",
-				"dweb:/ipfs/QmNppypjTg33zRa3p72XnrUg2uWb829nfmCkWoLDNQHusS"
+				"bzz-raw://93968d3754c82f2548883b0df86ef35947f860fbf78a6df1dee94736125b60fa",
+				"dweb:/ipfs/QmRQtiZug7YXmS2ThKDkSHUxCAUMjk1UDceb6mrEMMj1ay"
 			]
 		}
 	},

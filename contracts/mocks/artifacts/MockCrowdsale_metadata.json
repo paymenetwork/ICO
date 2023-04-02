@@ -13,49 +13,9 @@
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
-						"name": "rate",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address payable",
-						"name": "wallet",
-						"type": "address"
-					},
-					{
 						"internalType": "contract IERC20",
 						"name": "_token",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_cap",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_openingTime",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_closingTime",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_duration",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_min",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_max",
-						"type": "uint256"
 					},
 					{
 						"internalType": "address",
@@ -1196,7 +1156,7 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
@@ -1371,27 +1331,27 @@
 			]
 		},
 		"contracts/ico/PaymeTokenCrowdsale.sol": {
-			"keccak256": "0x3c114b029df9c2149f331f266a46baea140439f0adb2d06abf6e89785dcf366f",
+			"keccak256": "0x13813f2af30eec8dcd96256fc041dfd829b5a522e09ddd60fb00274ebf78987f",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://d3c8a3f4af48b8d894737fdf88f31115b42724ba2b5ae5f8166b3d5c1ca9d58a",
-				"dweb:/ipfs/QmaEQaZKKRwEkQJHLKzLrfMWmSk73pZC6w4pDreYFBuvXm"
+				"bzz-raw://870eaa81868dcd36e2916f676eb3f8fe2cf1ad1455d0c503ed69cbb314b901be",
+				"dweb:/ipfs/Qmbb2umubN2nXcKzC7UAbQ6Ymgk2ntn9AxjfrcoxLN9R3q"
 			]
 		},
 		"contracts/ico/PaymeTokenVesting.sol": {
-			"keccak256": "0x111b43b30cd45d700faa104647b909e47ccbdc275fdc68906f4aa012cee5d27f",
+			"keccak256": "0x86831922b3793211c62d87446da50a147ba88d71d0eaa1bc5864b30d28e8d562",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://b4dab02084eb507ca26688c4bd13330a201d35bcc4dd1b9cde6a996f65259da0",
-				"dweb:/ipfs/QmVnftwFjCu5EKpV87Yn4QkWCAtNqmqrjXGrg3pRUS5CsJ"
+				"bzz-raw://54421dec5b4532667a266c7bd038491b74a825ec15522a2150e40e77bd46ed0e",
+				"dweb:/ipfs/QmcY5n9VhoSZ6QL6zRUJ1eXU7w7YGRqJTpdpgEHgs7BR4q"
 			]
 		},
 		"contracts/mocks/MockCrowdsale.sol": {
-			"keccak256": "0xbd905176c2024d1cd42d4f4fd182569ef316c7995a5e077d8baa80f12a78fde3",
+			"keccak256": "0x67a255164718fc9b93959c1f4a50a3bb1e13466987da887d0e4621c3bc42e5dc",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://8783c81990a97ce0481f403293fa9e5b252f747350d1782f1d4de52dd67d0185",
-				"dweb:/ipfs/QmRmj1NS45SFFehJoTPV46QrukprfDEKGhoiQeP9Seo1UA"
+				"bzz-raw://a58519b48d22e9774f34e0d270d2e66a1b7ff277c201bf1958f10b66db0479cc",
+				"dweb:/ipfs/QmbCehqqyPbgTJWWbMDXnKgqporfV7gjUbtRXxZU6gYw3f"
 			]
 		}
 	},

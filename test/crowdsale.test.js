@@ -69,7 +69,7 @@ describe('Crowdsales ', function(){
 
       Token = await ethers.getContractFactory("PaymeToken");
       tokenVesting = await ethers.getContractFactory("MockTokenVesting");
-      tokenCrowdsale = await ethers.getContractFactory("PaymeTokenCrowdsale");
+      tokenCrowdsale = await ethers.getContractFactory("MockCrowdsale");
       BUSDToken = await ethers.getContractFactory("BUSDToken");
 
       testToken = await Token.deploy();
@@ -98,17 +98,8 @@ describe('Crowdsales ', function(){
 
       crowdsale = await tokenCrowdsale.deploy(
         deployedBUSDToken.address,
-        PRESALE_RATE,
-        WALLET,
         testToken.address,
-        PRESALE_CAP,
-        openingTime,
-        closingTime,
-        duration,
-        100,
-        1000,
         vesting.address,
-
       );
       await crowdsale.deployed();
 
