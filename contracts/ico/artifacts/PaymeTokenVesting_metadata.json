@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -892,7 +892,7 @@
 		"compilationTarget": {
 			"contracts/ico/PaymeTokenVesting.sol": "PaymeTokenVesting"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -977,11 +977,11 @@
 			]
 		},
 		"contracts/ico/PaymeTokenVesting.sol": {
-			"keccak256": "0x111b43b30cd45d700faa104647b909e47ccbdc275fdc68906f4aa012cee5d27f",
+			"keccak256": "0x86831922b3793211c62d87446da50a147ba88d71d0eaa1bc5864b30d28e8d562",
 			"license": "Apache-2.0",
 			"urls": [
-				"bzz-raw://b4dab02084eb507ca26688c4bd13330a201d35bcc4dd1b9cde6a996f65259da0",
-				"dweb:/ipfs/QmVnftwFjCu5EKpV87Yn4QkWCAtNqmqrjXGrg3pRUS5CsJ"
+				"bzz-raw://54421dec5b4532667a266c7bd038491b74a825ec15522a2150e40e77bd46ed0e",
+				"dweb:/ipfs/QmcY5n9VhoSZ6QL6zRUJ1eXU7w7YGRqJTpdpgEHgs7BR4q"
 			]
 		}
 	},

@@ -220,7 +220,6 @@ contract PaymeTokenVesting is Ownable, ReentrancyGuard{
         uint256 iSlicePeriodSeconds,
         bool iRevocable,
         uint256 iAmount,
-
         bool iReleaseAtTGE
     )
     onlyCrowdsaleOrOwner public{

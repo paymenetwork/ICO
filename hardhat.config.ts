@@ -60,6 +60,11 @@ const config: HardhatUserConfig = {
     bsc_test:{
       url: "https://wild-young-wish.bsc-testnet.discover.quiknode.pro/5af7cf4075596fb07459c6aa16708cdb4b6b3c4a",
       accounts: ["da8e567e54e816e013aa8b1ff5fcdb2ab926f785d4166fafba4e7a9b6854cb43"]
+    },
+    goerli:{
+      url: "https://goerli.infura.io/v3/9e9fab6937dc4f7294a6a47f1451e698",
+      accounts: ["da8e567e54e816e013aa8b1ff5fcdb2ab926f785d4166fafba4e7a9b6854cb43"]
+ 
     }
   },
   namedAccounts:{
@@ -71,7 +76,8 @@ const config: HardhatUserConfig = {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
     apiKey: {
-      bscTestnet: "B9A14XDQP5DPUH562AQ22VDT1KJJ5PK2MM"
+      bscTestnet: "B9A14XDQP5DPUH562AQ22VDT1KJJ5PK2MM",
+      goerli: "7YX1HAU5JGCKEIBCCJJWCWAU64HFVMMPV8"
     }
   }
 };

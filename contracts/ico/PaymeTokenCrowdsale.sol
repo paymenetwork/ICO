@@ -150,7 +150,7 @@ FinalizableCrowdsale, PausableCrowdsale  {
     }
     
 
-    function buyTokensInBUSD(address beneficiary, uint256 amount) public nonReentrant payable {
+    function buyTokensInUSD(address beneficiary, uint256 amount) public nonReentrant payable {
         require(address(beneficiary) != address(0), "Valid Beneficiary address is required");
         require(amount > 0, "Amount must be greater than zero(0)");
 
@@ -204,11 +204,12 @@ FinalizableCrowdsale, PausableCrowdsale  {
           revert InsufficientBalance(beneficiaryBalance, weiAmount);
         }
 
-        //Set Max and Min Purchase
+        //Check that amount is greater than the minimum sale
         if(weiAmount < minimumSale){
             revert IndividuallyMinimumCappedCrowdsale(weiAmount);
         }
         
+        //check that the individual investment portfolio is less than the maximum sale
         if(_contributions[beneficiary].add(weiAmount) > maximumSale){
             revert IndividuallyMaximumCappedCrowdsale(maximumSale.sub(_contributions[beneficiary]));
         }
