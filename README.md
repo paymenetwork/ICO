@@ -1,6 +1,6 @@
 # PNET Coin Smart contracts
 
-This contain payME smart contract codes to power the Intial coin offering and the payME platform.
+This contains PNET Coin smart contract codes to power the Initial coin offering and the PayMe platforms ecosystem.
 
 Try running some of the following tasks:
 
