@@ -1,4 +1,4 @@
-# PNET Coin Smart contracts
+# PNET Token Smart contracts
 
 This contains PNET Coin smart contract codes to power the Initial coin offering and the PayMe platforms ecosystem.
 
